@@ -18,6 +18,10 @@
   border: 2px solid rgb(150, 150, 150);
   border-radius: 0.25em;
 
+  & > img {
+    width: 100%;
+  }
+
   &:hover {
     box-shadow: none;
   }
