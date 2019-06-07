@@ -12,7 +12,8 @@
 
 // Main menu header styles
 .main-header__menu {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
   justify-content: space-between;
   max-width: 1800px;
   width: 100%;
@@ -24,6 +25,7 @@
 
 // Styles for image primary
 .pg-logo {
+  width: 3em;
   height: 3em;
   padding: 0.5em;
 }

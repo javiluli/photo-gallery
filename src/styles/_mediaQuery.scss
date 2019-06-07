@@ -34,12 +34,7 @@
     border-bottom: none;
     background: rgba(255, 255, 255, 0.25);
   }
-  .main-header__menu {
-    position: relative;
-    display: grid;
-    grid-template-columns: max-content 1fr;
-    justify-content: space-between;
-  }
+
   .main-menu {
     position: relative;
     width: 100%;
