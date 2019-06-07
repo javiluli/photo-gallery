@@ -1,0 +1,26 @@
+- 
+ var pages = [
+  {
+   title: 'logo',
+   url: './static/content/svg/pg-logo.svg',
+  },
+  {
+   title: 'Servicio',
+   url: 'services.html',
+  },
+  {
+   title: 'Novedades',
+   url: 'contactos.html',
+  },
+  {
+   title: 'Contacto',
+   url: 'contactos.html',
+  }
+ ]
+
+ul
+ each page in pages
+  li
+   a(href= '#')
+    img(src= page.url).prueba
+   

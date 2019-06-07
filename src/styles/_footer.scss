@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--color-first);
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-align: center;
+  width: 100%;
+}
+.textFooter {
+  padding: calc(var(--header-height) / 3);
+}
